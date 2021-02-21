@@ -1,0 +1,175 @@
+Java Programming - class - 1 
+
+java, python, c, c++ , C# 
+
+compiler/interpreter - jdk - java compiler 
+
+machine language - 10010101
+
+10010101010101111110000 
+
+int x = 23; 
+x=87;
+
+1. data - storing data
+2. condition 
+
+Syntax of the code is different >> 
+number, name, decimal number 
+datatype 
+
+int x = 12; 
+
+datatype variable = data; 
+
+int x = 12; 
+String name = "michael";
+float y = 10.9; 
+boolean flag = true; 
+
+two steps to store data 
+
+declaretion; 
+
+int abcd; 
+
+String firstName;
+
+
+intialize 
+
+abcd = 34; 
+
+
+String name = "jon"; 
+
+String is the data type
+name is the variable name 
+jon is the variable value 
+
+int num = 45; 
+
+int is the data type
+num is the name of the variable
+45 is the value of the variable 
+
+Key Point 1: java is a case sensitive language 
+
+int 
+Int 
+String 
+string 
+
+int Abcd; 
+
+How to store a data in java, 
+
+datatype variable = value; 
+
+int x; 
+x=67; 
+
+1. create a java project 
+2. basic unit of any java code is a java class 
+3. code executes from the main method 
+
+
+class, methods, controls statements scope 
+
+{}
+
+int 
+String 
+boolean 
+
+packages are java folder 
+
+boolean 
+
+true/false
+
+
+1. learning how to create java project, package, and class
+2. how to create a class with main method of java 
+3. different datatypes in java 
+int, String, boolean
+
+double 
+
+operation >> sum, subtraction, 
+System.out.println
+
+4. conditional statement - control statement 
+
+if we want to execute some codes based on the condition, 
+we use conditional statement 
+
+if(condition) {
+
+// code is here
+
+}
+
+equal to something
+greater or less than something
+combination of these 
+
+assignment 
+
+x=100
+
+x==100
+
+Problem: 
+
+car dealership needs a software to calculate the montly payment
+for customer 
+
+solution: 
+
+data we need: 
+
+carprice 
+interest rate >>> credit scroe 
+how many installment - how many years you want to pay
+downpayment 
+taxes 
+trade - in 
+
+monthy payment = total car price/number of months 
+12000 - 2000 = 10000
+
+10000 X (1.5/100)>> 150 + 10000 >> 10150
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

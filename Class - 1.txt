@@ -1,0 +1,81 @@
+Regression Testing -- 
+
+February 1st - version - 10.5 
+
+what can happen: 
+
+1. new functionalites - enhancement - new reqs - new test tases 
+2. modification - existing functionalites - modified reqs- modify
+test cases
+3. bug fixes - existing test cases - 
+4. code changes - existing test cases 
+
+100 reqs - 
+release planning - 10.5 >> 11 
+
+Test coverage - 100% - requirements - 
+Test covergage - 50% - 
+
+
+10.5 >> 11.0 ..... 10 new reqa >> 25 test cases 
+200 test cases - 
+200+25 >> 225 test cases 
+
+25 test cases >> smoke testing 
+-- you are not doing - 50 test caes >> sanity testing 
+
+225 test cases >> regression testing 
+
+500 test cases >> 
+
+50 test cases >> 4 browsers 
+200 test cases 
+
+Why automation testing? 
+1. regression testing 
+2. data driven testing 
+3. cross browser 
+
+April 30th - 11.0 
+What you are going to learn? 
+
+1. computer programming - Java - 
+2. UI/Functioal testing  library - selenium 
+3. Testing libraries - TestNG , Cucumber 
+4. code managment - Maven, Git/Github, Jenkins 
+
+Java Setup - 
+
+1. jdk >> java development kit >> java compiler 
+maching language 
+
+2. eclipse IDE >> integrated development environment 
+editor 
+
+3. winrar - for zipping and unzipping 
+
+username: anik@agile1tech.com
+password: Agile1tech+
+
+dmg
+
+eclipse folder and workspace folder are different 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
