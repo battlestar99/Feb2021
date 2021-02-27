@@ -10,7 +10,7 @@ public class carPriceCalculatorV1 {
 		double crediScore = 670; 
 		double tax = 6; 
 		double months = 60;
-		double priceAfterDown; 
+		double priceAfterDown ; 
 		double financinprice; 
 		double monthlyPayment; 
 		

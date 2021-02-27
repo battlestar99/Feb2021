@@ -16,6 +16,14 @@ public class conditonalStatement {
 		
 		y = false; 
 		
+		double a; 
+		
+		a=500.5;
+		
+		int b; 
+		
+		b=500;
+		
 	// there are two numbers and we are going to compare them 
 		
 		int number1 ; 
@@ -27,6 +35,9 @@ public class conditonalStatement {
 		
 		x= (number1==number2);
 		y=(number1>number2);
+		
+		
+		System.out.println(x);
 		
 		
 		
@@ -44,6 +55,12 @@ public class conditonalStatement {
 		if(number1<number2) {
 			
 			System.out.println("Number1 is less than number2");
+			
+			
+		}
+		
+		else {
+			
 			
 			
 		}

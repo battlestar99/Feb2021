@@ -1,0 +1,186 @@
+Class - 3 Java 
+
+what is the basic unit of java code? 
+
+java package - java folder 
+
+java class - Test script 
+
+main method >> starting point of java code 
+
+
+class >> variables are only inside the class 
+
+int x; 
+
+int x; 
+
+
+10400 eaton place, fairfax, VA 
+
+10400 eaton place, arlington, VA
+
+why we use conditional statement? 
+
+when we want to execute code based on some conditions 
+
+
+if I have money(true/false) I am going to buy a car
+
+if(creditscore>700){
+apr = 1; 
+}
+
+if(creditscore<700 and crediscorte>650){
+apr=2; 
+}
+
+
+
+if(condition) {
+
+// code 
+
+}
+
+= assinging a value
+== comparing two values
+
+else will not get executed if, the condition is true 
+
+if you have money you will buy a car 
+if you have time you will go to walmart 
+
+Java methods/Functions 
+
+what is a java function? 
+
+how to create a java function and how to use them? 
+
+main method of java
+
+two types of class >> 
+runable class >> main method of java
+non-runnable class>> without main method of java 
+
+public static void main(String args[]){
+
+}
+
+how to create a method and use them:
+
+what is a function? 
+
+1. a function is a bunch of code that will get exectued upon 
+called 
+2. a function is created to use the same code again and again
+
+we need to find a web-element
+
+findelement
+sendkeys
+isdisplayed
+isenabled
+
+programming library >> 
+
+consist of thousdans of functions 
+
+selenium webdriver >> browser interaction, web application testing
+ 
+opening up a browser - google chrome
+find a text box - 
+type something in a text box - 
+
+3rd party library - selenium - browser interaction
+jdbc - used for intearching with a database
+testNG - used for creating testing scenerios
+cucumber - used for creating creating test using BDD approach
+
+what we have in a library 
+
+1. functions >> classes(non-runnable class>> packages >> jar file
+
+how to use a function: 
+
+1. how to create function 
+
+public ouputdatatype functionName(paremeters/arguments)
+{
+
+// code whatever will be executed when the function is called
+
+}
+
+function is set of instructions get exectued upon called 
+
+procedural programming - main method
+OOP - 
+
+public int addnumbers(double a){
+
+int x;
+
+}
+
+public in subtractnumbers(){
+
+int x; 
+
+}
+
+
+
+local variable - variables those are created inside a function
+main method/regular method
+2. how to use the function that we created 
+
+creating an object of the class 
+
+classname objecment = new classname(); 
+
+running a function is only from a runanble class
+
+3. how to use the functions created by other programmers in different
+libraries 
+
+selenium, TestNg, cucumber
+
+jdk >> java development kit 
+
+java core library + java runtime enviroment (jre) 
+
+gettext
+
+sendkeys
+
+why we are using void? 
+
+sendkeys("sgafgsa");
+
+anik@agile1tech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
