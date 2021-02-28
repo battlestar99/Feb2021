@@ -1,0 +1,125 @@
+Class - 4 
+
+java and javascript 
+
+Functions/methods 
+
+main method - if you want to run a class you need main method
+to run our class , to run our scripts 
+
+non-runnable class > where we don't have main method 
+
+
+runnable class - main method
+non-runnable class - any other general method 
+
+create a function , 
+
+input >> parameters, arguments , no parameters
+system >> function definition, scope of the function
+output >> return type , one data 
+
+
+public int getnumber(String x){
+
+// instructions or codes 
+
+return 34;
+
+}
+
+public void getsomething(){
+
+// code we are writing here 
+
+}
+
+// you want to use a function 
+
+1. from which class the function is coming
+2. the class must have to be in your project 
+
+eclipse suggestion 
+
+function name(parameters):return type: class name
+
+upgrade the carpayment system: 
+
+1. apr of the price >> credit score 
+2. calculate the financing price
+3. calculate the price after tax
+4. if warrenty is taken or not 
+5. calculate the total price 
+6. calculate the monthly payment
+
+baseprice+Tax+ warrently
+
+scanner class >> jdk library 
+how to create function > done
+how to use a function > done 
+how to use a function from a library > we don't know
+how to the functions are created or implemented 
+
+name of the function, from which class it is coming, what the function
+is doing
+
+documentation of the library 
+
+classname objectname = new classname(); 
+
+scanner 
+
+how to create a function, and how to use functions
+
+public returndatatype functionname(parameters){
+
+code 
+
+return 
+
+}
+
+classname objectname = new classname();
+
+90 percent time we will be using functions those are already created
+
+15-20 functions 
+2-3 functions
+
+procedural programming > function is a set of instruction 
+that we can use again and again
+
+OOP > function is something that object can do
+
+static - we don't need to create an object to call the function 
+
+non-static - we need to create an object to call a function 
+
+3 different languages- 
+html/css- designing 
+front-end - java script
+
+java, C#, python
+
+arrary - 5 data in variable 
+100 data 
+
+index - 0 ..... 9
+
+{} >> scope >> class, methods, control(if,for,when)
+() >> functions, constructors
+[] >> array 
+
+100 >> 99 
+500>> 499
+
+
+
+
+
+
+
+
+
+
+
