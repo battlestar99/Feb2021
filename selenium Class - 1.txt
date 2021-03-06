@@ -35,8 +35,21 @@ browser interaction
 
 how to setup programming library / selenium library: 
 
+
+step 1: setting up programming library in the java project 
 1. you need the jar files for the library 
 java core library - 3rd party library 
+
+step 2: setting up a browser for our testing purpose - 
+google chrome browser 
+
+to run the chrome browser from our code we need 
+chrome driver file 
+
+mozile - mozila driver
+IE - IE driver 
+
+chrome browser version - 89 
 
 
 
