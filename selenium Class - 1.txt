@@ -1,0 +1,59 @@
+java - basics 
+
+project >> jre + src>> src >> packages >> classes 
+
+main method - runnable - test script 
+functions, multiple times - non-runnable class - not a test script 
+
+libraries - jar file / files 
+
+web - based application testing - 
+test case - exeucting manually
+test script - we can run the code 
+
+Test case steps : 
+
+1. opening the chrome browser 
+2. navigating to the url 
+3. enter firstname in the firstname text box
+4. enter last name in the last name text box 
+5. click on the signup button
+6. check if new accoutn is created 
+
+web-based application 
+
+selenium is a programming library that provides function to 
+interact with any web based appliction 
+
+known as 
+browser automation library
+test automation library - function test automation
+data scraping library 
+
+selenium doesn't have any functions that is not related to
+browser interaction 
+
+how to setup programming library / selenium library: 
+
+1. you need the jar files for the library 
+java core library - 3rd party library 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
