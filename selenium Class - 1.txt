@@ -52,6 +52,15 @@ IE - IE driver
 chrome browser version - 89 
 
 
+// open up the browser 
+
+classanme objectname = new classname(); 
+
+Webdriver driver=new chromedriver(); 
+
+
+
+
 
 
 

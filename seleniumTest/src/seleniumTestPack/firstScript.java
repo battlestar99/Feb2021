@@ -16,12 +16,16 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\F
 WebDriver driver = new ChromeDriver();
 		
 	// navigate to the url
+    // any object of the webdriver is browser isntance
+
+WebDriver driver1=new ChromeDriver();
+
+// navigating to the url
+driver.get("https://www.google.com/");
+
+driver1.get("https://www.facebook.com/");
 
 
-		
-		
-		
-		
 
 	}
 
