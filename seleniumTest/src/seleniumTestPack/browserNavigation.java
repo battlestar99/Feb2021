@@ -23,6 +23,8 @@ public class browserNavigation {
         
         driver.findElement(By.linkText("Help")).click();
         
+      
+        
        url =  driver.getCurrentUrl();
        title = driver.getTitle();
         

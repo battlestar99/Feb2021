@@ -1,0 +1,124 @@
+anik@agile1tech.com 
+
+selenium library - 
+can do - interact with browser, any application running in a brwoser
+web based application 
+chrome, mozila, IE, safari
+website - 
+webapplication - 
+
+functional web based application testing - UI , GUI testing
+user interface testing
+Graphical user interface 
+90 percents application 
+
+can't do - windows, mobile, database, api 
+
+programming library - selenium 
+jar file - 
+
+jdbc - interact with database
+rest assured - api 
+appium - mobile application 
+
+web element are the components of the application that 
+user can interact with 
+
+text box - you can type some value
+button - you can click 
+drop down - you can select 
+check box - check some option
+radio button - click and select one option
+links - click and navigate to a new page 
+pop up - java script po , windows pop up 
+tables - click, select 
+
+test case / test script 
+validating requirments
+validating requirements 
+
+how to interact with the webelements? - 
+
+web based appliction - 
+
+HTML/CSS - 
+
+attribute and value - 
+person - 
+
+name-
+ssn -
+car-
+home address -
+
+web elements have attribute - value of the attributes 
+
+first name text box
+input - text box, radio buton
+
+<input type="text" id="usernamereg-firstName" 
+class="ureg-fname input-with-icon icon-name " 
+autocomplete="given-name" name="firstName" 
+placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" 
+maxlength="32" aria-required="true" aria-invalid="false">
+
+
+id, name, xpath, css selector - 4 common attributes 
+
+
+
+linktext, partiallinktext - link web elements 
+
+when we interact with link that means starting with a tag
+anchor tag 
+
+classname, tagname - multiple web elements 
+
+weblement - can store any weblement 
+
+single thing
+
+Test case dependency - 
+
+isenabled
+isdisplayed
+isselected 
+
+you should find weblement when you are in that page 
+
+drop down menu should generally starts with a select tag 
+
+Select dd = new Select();
+
+wait -- 
+
+implicit wait - 
+explicit wait
+fluent wait 
+
+thread.sleep(10)
+
+implicitwait(10) 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
