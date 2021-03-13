@@ -12,6 +12,8 @@ public class automationPractice {
 		
         WebDriver driver=new ChromeDriver();
         
+        WebDriver driver1=new ChromeDriver();
+        
         driver.get("http://automationpractice.com/index.php");	
 		
 		driver.manage().deleteAllCookies();

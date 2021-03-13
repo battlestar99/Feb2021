@@ -1,0 +1,180 @@
+1 test scripts - 
+
+framework -
+scratch 
+
+18-20 
+
+finding the web elements - 
+html+css >> 
+
+<input type="text" class="is_required validate account_input form-control" 
+data-validate="isEmail" 
+id="email_create" name="email_create" value="", classid="abc">
+
+
+//input[@id="email_create"]
+//input[@name="email_create"]
+//input[@type="text"] - the problem of using this is lot of weblements
+can have type attribute with text value 
+modified xpath 
+
+100 webelements in the page - 10 of them
+//input[@classid="abc"]
+
+this weblement 
+//*[@name="email_create"]
+
+
+text box = name = "email"
+button = name = "email"
+
+//button[@name="email"]
+
+1. which you prefer? 
+2. you dont have any unique attribute what you are going to do? 
+3. when you use modified xpath? 
+4. difference between // and /?
+// releative xpath
+/ absolute xpath 
+
+relative xpath >> attribute and value 
+//tagname[@attribute="value"]
+
+absolute xpath >> 
+
+/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a
+
+selenium 
+
+
+
+primary webelment 
+id
+name
+
+xpath - benefits of using xpath - 
+1. if you dont have unique id or name 
+2. modified xpath 
+3. absolute xpath 
+
+//*[@id="SubmitCreate"]/span
+
+//*[@name="SubmitCreate"]/span
+
+Structure of a xpath - 
+
+//tagname[@attribute="value"]
+
+
+"//input[@id="test"]"
+
+
+
+key: xpath and css selectors are created from all existing 
+attributes and values 
+
+
+
+css selector - 
+
+tagname[attribute='value']
+ [id='test']
+
+works only with links/hyperlinks - starts with anchor (a) tag
+linktext - Terms and conditions of use
+partical linktext - Terms
+
+finding multiple webelements 
+classname
+tagname - input 
+
+findelements 
+
+// 
+
+Webdriver driver = new Chromedriver();
+
+classname objectname = new classname(); 
+
+// int x = 32; // declaretion, initialize 
+
+int x; 
+x=32;
+
+// classname objectname;// declaretion of the object
+objectname = new classname; // initializtion of the object
+
+
+
+
+
+functions - 
+
+automation testing framework - 
+
+5 webelements location changed - 30 different scripts 
+
+framework in selenium - 
+
+object driven frameowork - we are seperating 
+web elements/web objects from the test script
+
+is implemented by creating page object model classes 
+
+data driven frameowork - we are seperating test data 
+from test scripts 
+
+non-runnable - 
+
+functions/methods
+properties - global variable 
+
+constructor - 
+whenever object of the class is created something will get 
+executed 
+
+page object model - functions + constructor 
+
+
+web pages - 
+
+10 web pages - 10 page obect model class
+
+70 web elements >> create one function
+
+70 functions\
+
+
+
+1. why we need page object model? 
+
+
+2. what is page object model? 
+
+page obejct model is a non-runnable class where we 
+create functions to find webelements 
+
+100 webelements 
+
+100 functions 
+
+10 web page - 10 page object model 
+
+2. how we are going to create page object model? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
