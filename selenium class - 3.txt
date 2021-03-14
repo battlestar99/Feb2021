@@ -163,6 +163,16 @@ create functions to find webelements
 
 2. how we are going to create page object model? 
 
+object driven framework - 
+seperating test scripts from web elements or web objects 
+
+page object model class - non-runnable class - functions 
+
+Test scripts and page object model classes shoule always 
+be in seperate package 
+
+
+
 
 
 
