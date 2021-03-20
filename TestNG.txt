@@ -1,0 +1,52 @@
+Testing Library 
+
+TestNG 
+
+Interview - 
+
+1. code organization - framework, maven, data driven, object
+driven
+2. TestNG - Cucumber - testing library 
+3. Java - OOP 
+4. selenium - how to locate elements, scenerio 
+
+TestNG/Junit - traditional way of writing our test script 
+Test Next generation - 
+
+Why using a testing library? 
+
+1. execution is happening line by line - we don't have 
+any control over code execution 
+pre-requirement 
+2. creating pass/fail scnerio - 
+expected result - from the requirement 
+actual result - from the test 
+compare expected and actual
+are same >> test passes
+not same >> test fails 
+
+3. generate any test report - 
+
+4. test suite - 500 tests - collection of test scripts 
+
+5. data driven framework - 
+
+6. dependecnies, priority, enable, 
+
+TestNG Setup - 
+
+1. plugin with eclipse - TestNG eclipse plugin 
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+2. TestNG jar file - 
+
+
+
+
+
+
+
+
+
+
