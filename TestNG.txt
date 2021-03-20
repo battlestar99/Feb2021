@@ -39,7 +39,80 @@ TestNG Setup -
 
 https://dl.bintray.com/testng-team/testng-eclipse-release/
 
-2. TestNG jar file - 
+2. TestNG jar file - maven repository 
+library folder in the github 
+
+TestNG Structure 
+
+annotations - sequence 
+
+@BeforeTest
+public void setupTest(){
+
+}
+@Test
+
+public void mainTest(){
+
+}
+@AfterTest
+public void endTest(){
+
+}
+
+BeforeTest - executes one time before all the test - 
+whatever we want to execute before all the test 
+Test - executes - main test 
+AfterTest - execute after all the test - 
+whatever we want to execute after all the test 
+
+1 class - 1 test script 
+1 test scripts can have multiple test or test cases 
+
+Test Sequnce : 
+
+1. get executed according to alphabetical order 
+2. we can setup priority 
+
+@BeforeMethod - 
+
+@AfterMethod 
+
+the sequeunce of execution 
+
+@BeforeTest
+@BeforeMethod
+@Test1
+@Aftermethod
+@BeforeMethod
+@Test2
+@AfterMethod 
+@BeforeMethod
+@Test3
+@AfterMethod
+@BeforeMethod
+@Test4
+@AfterMethod
+@AfterTest 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
