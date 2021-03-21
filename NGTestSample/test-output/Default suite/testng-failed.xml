@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="TestScripts.sauceDemoSample">
+      <class name="TestScripts.sequenceNG">
         <methods>
+          <include name="TestA"/>
           <include name="endTest"/>
-          <include name="setupTest"/>
-          <include name="loginTest"/>
+          <include name="beforeEachtest"/>
+          <include name="aftereachtest"/>
+          <include name="TestC"/>
+          <include name="setUpTest"/>
         </methods>
-      </class> <!-- TestScripts.sauceDemoSample -->
+      </class> <!-- TestScripts.sequenceNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

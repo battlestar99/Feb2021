@@ -17,19 +17,19 @@ Why using a testing library?
 
 1. execution is happening line by line - we don't have 
 any control over code execution 
-pre-requirement 
+pre-requirement - done
 2. creating pass/fail scnerio - 
 expected result - from the requirement 
 actual result - from the test 
 compare expected and actual
 are same >> test passes
-not same >> test fails 
+not same >> test fails - done
 
-3. generate any test report - 
+3. generate any test report - done 
 
-4. test suite - 500 tests - collection of test scripts 
+4. test suite - 500 tests - collection of test scripts - is not done
 
-5. data driven framework - 
+5. data driven framework - is not done
 
 6. dependecnies, priority, enable, 
 
@@ -41,6 +41,18 @@ https://dl.bintray.com/testng-team/testng-eclipse-release/
 
 2. TestNG jar file - maven repository 
 library folder in the github 
+
+
+java library is a jar file 
+
+non runnable class - functions are properties 
+
+1. download the jar file - maven repository
+2. copy it in our project 
+3. adding them to build path 
+
+plugins are required based on our need - 
+
 
 TestNG Structure 
 
@@ -82,7 +94,7 @@ the sequeunce of execution
 
 @BeforeTest
 @BeforeMethod
-@Test1
+@Test(priority=0)
 @Aftermethod
 @BeforeMethod
 @Test2
@@ -96,6 +108,109 @@ the sequeunce of execution
 @AfterTest 
 
 
+Assertion 
+TestNG, junit, cucumeber 
+
+expected result vs actual result 
+
+expected result - requirment
+actual result - test run 
+
+expected = actual result >> test passes
+if not equal >> fails 
+
+Assert.assertEquals(expected result, actual resutl) 
+
+
+
+1. annotations - without using any selenium library 
+2. annotations - use selenium library 
+3. add page object model 
+4. add assertions 
+
+ 
+
+
+
+
+
+reqruirements 
+
+test >> 
+
+homepage
+clicking help page
+clicking specific person page 
+
+annotations or sequence of annotations 
+
+beforetest  
+beforemethod
+testa
+aftermethod
+beforemethod
+testb
+aftermethod
+afteretest
+
+
+beforetest
+test
+aftertest 
+
+need to create pass/fail scnerio: 
+
+expected result - from the requirements 
+actual result - from the test 
+
+
+
+Assert 
+
+Assert.assertequals(expected, actual);
+
+Assert.assertequals(int, int);
+
+
+Assert.assertequals(boolean, boolean);
+
+Assert.assertTrue(boolean) > if the boolean value is true
+
+Assert.assertFalse(boolean) > if the boolean is false, it will 
+pass the test otherewise it will fail
+
+Test Scenerio 1 : 1 test case, @Test 
+
+validating if the username, password, login elements
+are in the page 
+
+create one test - 3 assertions 
+if one assertion fails it will fail the test 
+
+Test scenerio 2: 
+
+validating login is working for the positive data 
+
+Test scenerio 2.1 : 
+
+validating login is working for the negative data
+
+Test scenerio 3: 
+
+user should be able to add any proudcts to the cart 
+and the product should be shown in the cart page 
+
+Test Scenrio 4: 
+
+user should be able to checkout from the cart by providing 
+the firstname, lastname, zipcode and by clicking to the continue
+button 
+
+
+
+
+
+requirements - user stories 
 
 
 
@@ -107,6 +222,27 @@ the sequeunce of execution
 
 
 
+
+
+
+
+
+Test suite - collection of test cases or test scripts 
+
+TestNG XML file is used for creating test suite and also
+data driven testing 
+
+xml - extensible markup language 
+
+<suite name="regression testing"> </suite>
+
+
+data driven testing - 
+testng xml, apache poi lib to read data from excel
+jdbc lib to read from database
+cucumber with data table 
+
+seperating the test data from test scripts 
 
 
 

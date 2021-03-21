@@ -1,25 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5484" started-at="2021-03-20T16:15:08Z" finished-at="2021-03-20T16:15:13Z">
+  <suite name="Default suite" duration-ms="31" started-at="2021-03-21T15:01:31Z" finished-at="2021-03-21T15:01:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5484" started-at="2021-03-20T16:15:08Z" finished-at="2021-03-20T16:15:13Z">
-      <class name="TestScripts.sauceDemoSample">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:TestScripts.sauceDemoSample@7995092a]" name="setupTest" is-config="true" duration-ms="5397" started-at="2021-03-20T12:15:08Z" finished-at="2021-03-20T12:15:13Z">
+    <test name="Default test" duration-ms="31" started-at="2021-03-21T15:01:31Z" finished-at="2021-03-21T15:01:31Z">
+      <class name="TestScripts.sequenceNG">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="setUpTest" is-config="true" duration-ms="7" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestScripts.sauceDemoSample@7995092a]" name="loginTest" duration-ms="78" started-at="2021-03-20T12:15:13Z" finished-at="2021-03-20T12:15:13Z">
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="TestB()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="TestB" duration-ms="5" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.sauceDemoSample@7995092a]" name="endTest" is-config="true" duration-ms="0" started-at="2021-03-20T12:15:13Z" finished-at="2021-03-20T12:15:13Z">
+        </test-method> <!-- TestB -->
+        <test-method status="PASS" signature="beforeEachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="beforeEachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method status="PASS" signature="aftereachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="aftereachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest -->
+        <test-method status="PASS" signature="beforeEachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="beforeEachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method status="FAIL" signature="TestA()[pri:1, instance:TestScripts.sequenceNG@5a955565]" name="TestA" duration-ms="1" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [texas] but found [virginia]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [texas] but found [virginia]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at TestScripts.sequenceNG.TestA(sequenceNG.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="aftereachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="aftereachtest" is-config="true" duration-ms="1" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest -->
+        <test-method status="PASS" signature="beforeEachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="beforeEachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method status="FAIL" signature="TestC()[pri:2, instance:TestScripts.sequenceNG@5a955565]" name="TestC" duration-ms="1" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at TestScripts.sequenceNG.TestC(sequenceNG.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC -->
+        <test-method status="PASS" signature="aftereachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="aftereachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest -->
+        <test-method status="PASS" signature="TestD()[pri:3, instance:TestScripts.sequenceNG@5a955565]" name="TestD" duration-ms="1" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestD -->
+        <test-method status="PASS" signature="beforeEachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="beforeEachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method status="PASS" signature="aftereachtest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="aftereachtest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.sequenceNG@5a955565]" name="endTest" is-config="true" duration-ms="0" started-at="2021-03-21T11:01:31Z" finished-at="2021-03-21T11:01:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- TestScripts.sauceDemoSample -->
+      </class> <!-- TestScripts.sequenceNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

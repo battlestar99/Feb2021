@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data driven login testing]">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="userid" value="problem_user"/>
+  <parameter name="expectedvalue" value="https://www.saucedemo.com/"/>
+  <test name="validating problem user data(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="userid" value="problem_user"/>
+    <parameter name="expectedvalue" value="https://www.saucedemo.com/"/>
+    <classes>
+      <class name="sauceDemoTest.Scripts.validataLoginData">
+        <methods>
+          <include name="validateLogin" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="getToHomePage"/>
+          <include name="endTest"/>
+          <include name="getToHomePage"/>
+          <include name="endTest"/>
+          <include name="getToHomePage"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.Scripts.validataLoginData -->
+    </classes>
+  </test> <!-- validating problem user data(failed) -->
+</suite> <!-- Failed suite [data driven login testing] -->

@@ -37,17 +37,33 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\F
 	}
 	
 	@Test
-	public void loginTest() {
+	public void loginTest() throws InterruptedException {
 		
 		System.out.println(x);
-		WebElement x = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
-		x.sendKeys("username");
+		WebElement username = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
+		username.sendKeys("standard_user");
+		
+		Thread.sleep(1000);
+		
+		WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]")); 
+		password.sendKeys("secret_sauce");
+		
+		Thread.sleep(1000);
+		
+		WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"login-button\"]")); 
+		loginButton.click();
+		
+		Thread.sleep(1000);
+		
+		
+		
+		
 	}
 	
 	@AfterTest
 	public void endTest() {
 		
-		
+		driver.quit();
 		
 	}
 
