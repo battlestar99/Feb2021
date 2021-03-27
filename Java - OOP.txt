@@ -1,0 +1,21 @@
+how Java works? 
+
+What is OOP - Object oriendted Programming? 
+
+creating class to define two thins >> 
+prototype or design >> 
+system: 
+what the system/class can do>> function/methods
+what are the attributes of the system/class>>  properties
+
+you make a design of a car - doors, engines, wheels, windsheild
+
+100 - object 
+
+OOP 
+design a system - methods, properties 
+object of the system - method, properties 
+
+
+
+

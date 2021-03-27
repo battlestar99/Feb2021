@@ -1,0 +1,50 @@
+1. how to setup your environment? 
+
+java - setup java, 
+basic programming - class, main method, datatype, varibles, 
+if/else, for loop - very low chances to come to interview  
+functions/method >> medium level of important - most important
+thing for the whole class - 
+OOP - less implementation in our automation test script - 
+important for interview 
+
+selenium - interact with web-browser - 
+functions - sendkeys, findlement, click, gtettext, - low probablity
+how to find weblements - good 
+what browser you used - good
+page object model/object driven framework
+ - why and how >> very good 
+framework >> object driven 
+data driven 
+
+
+
+setup/configure >> befortest
+test case >> @Test >> interact with web elements 
+
+TestNG >> very very important - cucumber 
+1. organize your test 
+2. how do you create pass/fail - assertion
+3. test suite - testng xml 
+4. data driven framework - testng xml
+5. parallel test run - testng xml - tests=parellel 
+6. report is generated - testng
+7. cross browser testing - saucelab, 
+
+
+code management - very very important 
+setup 
+maven, git/github. CI/CD pipeline using jenkins 
+
+SDET >> 
+
+
+
+
+
+
+
+
+
+
+
