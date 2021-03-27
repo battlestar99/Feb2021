@@ -6,9 +6,15 @@ public class runCar {
 
 	public static void main(String[] args) {
 	
+		car.getNumberofSale();
+		car.dealername="browns fairfax";
+		
+		
+		
 		// creating an object of the car class 
 		car a = new car();
 		
+		a.startEngine();
 		// create another object of the car class 
 		
 		// declaring the object

@@ -15,6 +15,47 @@ you make a design of a car - doors, engines, wheels, windsheild
 OOP 
 design a system - methods, properties 
 object of the system - method, properties 
+class - functions, properties
+object  - whatever class it is coming 
+
+constructor overloading - mulitple constructor  with different 
+parameters - 
+
+static - is not related with object, only stays in the class
+to call them we just need to use the class
+
+method overloading: same function name with different parameters
+
+accessibility of the functions or properties 
+
+access modifier >> public, private, protected, no-modifer 
+
+protected - can only be accessed from the class and the same
+pacakge 
+
+private - can be accesses only from the same class - not even
+from the same package 
+
+public - accessed from the same class, same pacakge and different
+pacakge 
+
+no modifer - protected 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

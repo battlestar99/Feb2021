@@ -2,7 +2,7 @@ package bankPackage;
 
 public class bankAccount {
 	
-	
+	// properties of the class , global variable
 	public String firstName; 
 	public String lastname; 
 	public String accountNumber; 
@@ -49,11 +49,21 @@ public class bankAccount {
 		System.out.println("getTotalMoney");
 	}
 	
+	
+	public int getTotalMoney(int x ) {
+		
+		System.out.println("getTotalMoney function2");
+		return 12; 
+		
+	}
+	
 	public void overDraft() {
 		
 		System.out.println("overDraft");
 		
 	}
+	
+	
 	
 	
 

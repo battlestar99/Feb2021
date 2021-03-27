@@ -20,6 +20,9 @@ public class runBank {
 		System.out.println(john.accountNumber);
 		
 		
+		john.getTotalMoney(12);
+		
+		
 		john.address="virginia";
 		mike.address="DC";
 		
