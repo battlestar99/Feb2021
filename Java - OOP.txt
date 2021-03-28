@@ -23,6 +23,7 @@ parameters -
 
 static - is not related with object, only stays in the class
 to call them we just need to use the class
+we dont need to create an object of the class 
 
 method overloading: same function name with different parameters
 
@@ -39,7 +40,103 @@ from the same package
 public - accessed from the same class, same pacakge and different
 pacakge 
 
-no modifer - protected 
+no modifer - protected - 
+
+
+
+
+
+how to create function: 
+
+returntype functionname()
+
+
+void getsomething(int x){}
+
+public boolean getsomething(){}
+
+public static void getsomething(){}
+
+relation between multiple classes 
+inheritance , interface, abstract class 
+
+inheritance >> there will super class and sub class
+or parent and child class relationship
+
+sub/child class gets all the function and properties from the parent
+or super class
+
+parent/super class doesnt get anything from sub class 
+
+method overriding >> when child class has its same own function
+it can not use the parent class function anymore 
+
+abstract class: we can not create an object of the class
+how to use the functions and properties of the class? 
+we can use them through the child class 
+
+
+not related to OOP 
+array, exception 
+
+
+
+
+
+WebDriver driver = new Chromedriver(); 
+
+webdriver is not a class, its an interface 
+
+// 
+WebDriver driver = new WebDriver(); 
+
+interface creates a list of functions those can be implemented
+in different classes 
+
+different between abstract class and interface 
+
+
+4 features of object oriented programming: 
+
+abstraction: we can create private prperities and function
+and hide to use from outside of the class
+creating an abstract class
+
+encapsulation: binding 
+function and properties in the same class 
+encapsulate data and actions together 
+
+inheritance: parent and child relationship between classes 
+
+polymorphism: 
+different forms - constructor overloading, method overloading, 
+method overriding 
+
+idea of one object being in different form 
+
+
+
+
+class - object 
+function - properties >> static and non-static 
+local, global variables 
+how to use this keyword: 
+constructor 
+access modifiers >> public, private, protected, no-modifier 
+method overloading, method overriding, constructor overloading
+inheritance, abstract class, interface 
+
+4 features; 
+
+
+
+
+
+
+
+
+
+
 
 
 

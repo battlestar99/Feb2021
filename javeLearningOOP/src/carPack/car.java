@@ -13,7 +13,7 @@ public class car {
 	
 	// methods means what car can do 
 	
-	private void startTransmission() {
+	private static void startTransmission() {
 		
 		
 	}
