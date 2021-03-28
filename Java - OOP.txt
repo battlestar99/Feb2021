@@ -128,6 +128,20 @@ inheritance, abstract class, interface
 
 4 features; 
 
+Test Suite : collection of multiple test cases or tests 
+
+xml file - 
+
+acceptacne criterion: 
+
+UAT test >> 
+
+data driven testing - seperating your test data from test script
+
+
+
+
+
 
 
 
