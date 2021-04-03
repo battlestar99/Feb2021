@@ -1,0 +1,101 @@
+TestNG or Cucumber 
+
+1. organize your code - gherking keywords, annotations 
+2. pass/fail - assertion 
+3. test report - 
+4. test suite - testng xml - java file 
+5. data driven testing - test NG xml , data table
+
+TestNG - sequence, parallel 
+Cucumber - tags, hooks
+cucumber setup: 
+
+1. cucumber eclipse plugin - eclipse market place 
+2. cucumber libraries - 10/11 jar files+ selenium 2 jars + TestNG
+
+why: 
+
+1. technical - non technical persons have no understaning 
+about what is happening the test - 
+
+BDD - behaviour driven development 
+
+non-technial - manual testing - should be understood by everyone
+
+technical - automation testing 
+
+
+non-technical - feature file 
+technical - step definition file - java class
+
+structure of the feature file - we can have multiple 
+test scenerios 
+
+gherkin - gherkin keywords - 5 keywords 
+
+given, when, and,then , but
+
+login test - positive test 
+
+Given user is on the login page 
+When user enters right user name
+When user enters right password 
+Then user should be able to login  
+
+Negative test 
+
+Given user is on the login page
+When user entes wrong user name
+And user enters wrong password 
+Then user should not be able to login 
+
+checking link 
+
+Given user is on the home page
+When user clicks on the career page 
+Then user should navigate the career page 
+When user clicks on the blog page
+Then user should be on the blog page
+
+
+
+
+key points to remember: 
+
+1. feature step has to exactly match with annotation parameter
+
+data driven testing: 
+
+Test suite: testrunner 
+Tag - testsuite 
+
+Hook 
+
+beforehook
+afterhook
+
+@Before
+@After
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
