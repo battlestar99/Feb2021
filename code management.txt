@@ -1,0 +1,115 @@
+Code management - share - and running tests 
+
+Functional Testing >> UI + GUI + web interface testing 
+manual
+automation >> 70-90 percent 
+
+database -- SQL 
+API - postman, soap UI 
+
+TestNG 
+  1. package for test scripts 
+  2. page object model - object driven 
+  3. package utility classes - excel file, database
+  4. xml files - test suite = data driven framework 
+
+Cucumber 
+
+  1. feature - data table for data driven framework 
+   2. step def 
+   3. test runner 
+   4. page object model - object driven framework 
+   5. utility classes 
+
+Role of different componenent 
+
+Functional Testing: WEB UI 
+automation: coding part 
+java - as a programming language to write your code 
+selenium - browser interaction libary - web application interaction
+TestNG/Cucumber - testing library - test organization, test results
+test suite, pass/fail scenerio, data driven 
+
+code organization-sharing- running test from remote server 
+Maven - build managment system - gradle, ant 
+Git/github - version control + code sharing system - bitbucket,svn, gitlab, 
+Jenkins - remote server - bamboo, 
+
+what are we doing: 
+
+we are creating test scripts in our local computer
+running tests
+generating reports 
+
+code is in our local compuer, report is in our local computer
+no one can run the test without me, I am running it from my compuer
+how multiple automation tester can collaborate with me 
+
+Problems: 
+
+1. for collaboration we need a system where everyone 
+can use the same version of the libraries 
+2. to share code in a common repository and also control
+the version of the code - what changes during the modification
+
+responsiblity of devops 
+3. code should be run from remote server also - remote computer
+
+
+
+Maven - Build magnagement system - java application 
+
+1. maven takes care of the dependecies / librareis 
+2. maven can be connected with a remote server 
+3. maven can also create test suite 
+
+Mave structure - 
+
+central repository - in the web mvnrepositoy.com
+local repository - in your computer 
+
+pom - project object model 
+
+clean >> cleaning or deleting any temporary file 
+install >> install all the dependecies and plugins 
+test >> it will run a specific java file which apptest.java
+if not specified otherwise 
+generate-source > will create a library file for the prject
+
+build >> clean install test 
+
+testNG
+TestNG Test - we are running just one file 
+TestNG suite - Xml file 
+
+cucumber 
+feature - just one feature
+testunner - multiple feature 
+
+maven test 
+
+maven - build managment system, dependecny management 
+maven test is helping the code to run from remote server
+
+surefire plugin to run test from maven - maven test 
+maven install
+
+version control system - 
+git - version control and pushing code to the repository 
+
+github - repository - where code is stored 
+bitbucket
+gitlab
+
+
+
+
+
+
+
+
+
+
+
+
+
