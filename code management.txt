@@ -102,6 +102,156 @@ bitbucket
 gitlab
 
 
+error >> code syntax has to be right 
+
+run time error >> 
+
+git and github - 
+
+local repository - 
+remote repository - github
+
+1. making a local repository in your compuer
+2. connect the local repository to a remote repositoy 
+
+
+C:\\Users\\Agile1Tech\\Desktop\\testfolder
+
+anik@agile1tech.com
+
+java- programming language 
+
+selenium- web UI testing 
+res-assured - API testing
+JDBC - database testing 
+
+cucumber- testNg >> testing library 
+
+basic responsibilties of the automation tester? 
+
+QA Analyst - 
+manual tester - 
+automation tester- qa enginner - automation testing
+SDET - highly automation tester 
+
+manual tester - creating and executing test cases only manually
+automation tester - creating and executing test cases
+manually and with automated test script
+
+responsibilities : 
+
+1. analyze requirement - 
+converting manual test cases to automated test scripts 
+user stories >> come up with scenerios>> create the test scripts
+
+- run the test scripts in your local computer
+- push the code to the company repository - 
+
+system admin - devOps - manage the github of the company
+create a github account using your company email - then devops
+people will give you access to the specific project / repository
+
+connect the remote with the local and start pushing code 
+
+
+
+environment setup>> jdk+eclipse+ project(maven project) 
+ cucumebr or testng >> plugins with eclipse 
+ create a maven project >> setup the pom.xml 
+ + add depencies - selenium, testng, cucumber
+ + add plugins - surefire plugin, maven compiler 
+
+maven is a replacement of creating a java project 
+maven is basically a type of java project > 
+jenkins is the remote server 
+
+git/github 
+
+push - uploading your updated code from local 
+pull - downloading updated code from remote 
+
+
+Jenkins - remote server - CI/CD pipeline 
+
+contineous integration and contineous development pipeline 
+
+when you should do your test or run your test? 
+
+deploying our code - code deployment 
+
+dev server - testers dont do anything
+192.168.2.2 - dev.agileteach.com
+test server - regression
+192.168.2.1
+regression.agileteach.com
+
+uat - staging 
+192.168.2.3
+release - production 
+192.168.2.4 >> www.agileteach.com
+
+code freeze - 
+
+CI/CD - remote server will do the work - jenkins 
+
+devops - system 
+
+developer is writing code - pushing it to the github - and then
+deploy it to a server
+
+testers are running the test code and generating the result 
+
+1. try to finish homework - 
+2. understand how you are going to explain - 
+
+TestNG annotations - parameterization xml 
+
+java - functions/methods
+selenium
+cucumber - 
+testng - annotations - 
+
+tags - 
+
+@regressionRun
+@omit
+@datadriven
+
+(enable=false)
+
+
+maven-git/github - jenkins 
+
+hands on practice on the class - 
+
+jobs@agile1tech.com 
+
+This wednesday - 6 - 730 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
