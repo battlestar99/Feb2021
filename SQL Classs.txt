@@ -1,0 +1,288 @@
+SQL - Structured query language 
+
+what is a database? 
+how database is used ? 
+how we can get data from the database? 
+as a tester what is our role? 
+
+web application architecture - 3 tiers appplication 
+
+front-end - GUI/UI >> functional testing >> 70-80 percent testing
+back-end - 20-30 >> api/web service + database 
+
+RDBMS >> releation database management system 
+oracle 10g/11gt/12c 
+microsoft sql server
+mysql >> 
+
+no-sql 
+mongo db 
+database - oracle, ms sql server, my sql 
+
+1. ERD 
+2. dummy database
+3. connect it to the UI or api 
+
+infinite amount of tables >> 
+
+1. columns / fields 
+2. rows / records / entries 
+
+CRUD - 
+
+create - creating new data from database
+read  - reading data from the database
+update - updating existing data in the database
+delete - deleteing data in the database 
+
+SQL >> structured query lanauge 
+
+UI >> database 
+
+Rest API >> 
+
+create >> post 
+read >> get
+update >> put 
+delete >> delete 
+
+
+
+W3 School - tables created with enough amount 
+
+How to read data from database >> 
+
+if you want to read any data from any database what you need 
+to specify? 
+
+table, fields, records 
+
+common structure: 
+
+Select columnanme from tablename where filterreows 
+
+field
+table
+records
+
+column
+table >> multiple
+filter the record and entries
+
+Select * from tablename
+
+WHERE Country='Germany' AND City='Berlin'
+
+aggregate function - min, max, avg, sum, count
+
+
+SELECT SUM(Quantity) AS quantity_sold
+FROM OrderDetails; 
+
+
+SELECT Country FROM Suppliers
+
+UK
+USA
+Finland
+Mexico
+
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+
+
+creating a table: 
+nissan portal 
+Create table customers
+(
+
+customername varchar(30)
+customerID INT
+address varchar(50)
+city varchar(20), Default city="New York"
+country varchar(30) Default country='USA'
+zipcode char(5) 
+age INT NOT NULL Check age>18
+pic   blob 
+description TEXT 
+phone char(10) Unique 
+email varchar(50) Primary Key
+SSN char(9) Foreign Key creditrepot.ssnNumber
+
+)
+
+creating the fields: 
+
+data type - 
+
+char(size) >> char(12) , exactly 12 characters 
+varchar(size) >> varchar(20), maximum 20 characters
+Text >> 65K character 
+BLOB >> image 
+INT>> number 
+
+
+constraints 
+
+Not NUll >> you can leave it empty 
+UNIQUE >> ensure that each row has a unique value
+Check - ensure the columns takes a specific range of value
+Default -  setting up default value for columnt 
+Primary Key - Unique + not null 
+Foreign Key >> connects one row in a table with another row 
+in another table 
+
+UNION >> 
+City > customers
+City > suppliers 
+
+Subqueries >> one query inside another query 
+
+UI testing script >> selenium
+
+workbench >> jdbc 
+
+connectsql("192.168.2.3")
+enterport(7656)
+enterusername("dfd")
+
+
+api testing >> postman, 
+rest-assured 
+
+post(""
+
+
+Back-end Testing 
+
+API /webservice - Rest API 
+requests should be given by developer
+
+database 
+sql quries should be given by developer
+
+
+C >> creating data, creating table, creating database 
+
+Create DB testdb
+Create schema testdb 
+
+create table tablename (
+
+fields datatype constraints 
+
+)
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+
+R >> read 
+
+U >> 
+update table or update data in table 
+
+ALTER TABLE Customers
+ADD Email varchar(255) Primary Key;
+
+ALTER TABLE Customers
+DROP Email ;
+
+ALTER TABLE Customers
+Modify Email Varchar(100) NOT NULL ;
+
+update data: 
+
+Update customers set address='dafasfds'where email='dafd@gmail.com'
+
+
+D >> 
+
+Drop Table Customers; 
+
+Truncate Table Customers; 
+
+delete record from a database 
+Delete from Customers where email = "dfd@gmail.com"
+
+Reading data from Multiple Table >> RDBMS >> tables are 
+related to each other 
+Foreign key 
+
+joins is used to get data from multiple tables bases on a relation
+
+inner join
+full outer join 
+left join 
+right join 
+
+we are reading data from 2 tables 
+
+
+Select columnanme from tablename where filterreows 
+
+
+SELECT 
+Customers.customerName, Customers.State, Sales.product, Sales.Price
+FROM 
+Customers left join  Sales 
+ ON 
+Customers.CustomerID = Sales.SalesID;
+Where 
+sales.price>34 and customers.state = VA
+
+Full outer join = all data from all tables whether there is matching
+data or not 
+
+Inner Join = only the matching data from both tables 
+
+left join = all data from left table and only matching data from right table 
+
+
+SELECT 
+Customers.CustomerName, Sum(price)
+FROM 
+Customers inner join  Sales 
+ ON 
+Customers.CustomerID = Sales.SalesID;
+Group By 
+Sales.SalesID
+
+Database Testing . 
+
+
+
+Select name, email
+from customerinfo
+where name='michael'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
